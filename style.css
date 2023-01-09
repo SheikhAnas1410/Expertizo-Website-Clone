@@ -1,7 +1,18 @@
 * {
     margin: 0%;
     padding: 0%;
-} 
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* display: block; */
+    /* cursor: pointer; */
+    z-index: 1;
+
+}
 
 .nav {
     position: sticky;
@@ -13,6 +24,7 @@
 
 .logo {
     margin-left: 2%;
+
 
 }
 
@@ -59,6 +71,7 @@
 
 .portfolio:hover {
     border-bottom: 2px solid rgb(98, 98, 160);
+
 }
 
 .services:hover {
@@ -93,7 +106,12 @@
     color: white;
     padding: 120px;
     text-align: center;
+    font-size: small;
 
+}
+
+.bg-img-h1 {
+    font-size: 50px;
 }
 
 .FW-text {
@@ -145,6 +163,7 @@
 
 
 
+
 .offer-text {
     text-align: center;
     margin-top: 40px;
@@ -188,6 +207,77 @@
 .career-text {
     text-align: center;
     margin-top: 40px;
+
+
+}
+
+#apply-btn1 {
+    margin-left: 40px;
+
+}
+
+#apply-btn1:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+#apply-btn2 {
+    margin-left: 40px;
+}
+
+#apply-btn2:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+#apply-btn3 {
+    margin-left: 40px;
+}
+
+#apply-btn3:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+#apply-btn4 {
+    margin-left: 40px;
+}
+
+#apply-btn4:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+#apply-btn5 {
+    margin-left: 40px;
+}
+
+#apply-btn5:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+#apply-btn6 {
+    margin-left: 40px;
+}
+
+#apply-btn6:hover {
+    background-color: white;
+    color: blue;
+
+}
+
+.exp1 {
+    border-radius: 180px;
+    padding: 30px;
+    background-color: white;
+    border-color: blue;
+
 
 }
 
@@ -268,22 +358,26 @@
     display: flex;
     margin-top: 40px;
     margin-right: 30px;
-
+   
+    
 }
 
 .phone {
     margin-left: 120px;
     text-align: center;
+    
 }
 
 .email {
     margin-left: 120px;
     text-align: center;
+    
 }
 
 .address {
     margin-left: 120px;
     text-align: center;
+    
 }
 
 
@@ -293,4 +387,8 @@
     color: grey;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 120px;
+    padding: 30px;
+
 }
+
